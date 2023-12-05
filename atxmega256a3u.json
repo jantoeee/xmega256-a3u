@@ -1,0 +1,29 @@
+{
+    "build": {
+      "f_cpu": "2000000L",
+      "hwids": [
+        [
+          "0x1234",
+          "0x0013"
+        ],
+        [
+          "0x4567",
+          "0x0013"
+        ]
+      ],
+      "mcu": "atxmega256a3u"
+    },
+    "hardware": {
+      "oscillator": "internal"
+    },
+    "platforms": ["atmelavr"],
+    "name": "atxmega256a3u",
+    "upload": {
+      "extra_flags": "-e",
+      "maximum_ram_size": 16384,
+      "maximum_size": 262144,
+      "protocol": "avrisp2"
+    },
+    "url": "https://www.microchip.com/en-us/product/ATXMEGA256A3U",
+    "vendor": "Microchip"
+  }
